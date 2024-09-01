@@ -1,0 +1,83 @@
+.rewards-page {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .points-overview {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .points-overview h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    color: #4A4A4A;
+  }
+  
+  .points-overview p {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .rewards-list h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #4A4A4A;
+  }
+  
+  .rewards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+  }
+  
+  .reward-card {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .reward-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .reward-card p {
+    font-size: 1em;
+    margin: 10px 0;
+    color: #666;
+  }
+  
+  .reward-card button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reward-card button:hover {
+    background-color: #45a049;
+  }
+  
+  @media (max-width: 768px) {
+    .rewards-grid {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  }
+  

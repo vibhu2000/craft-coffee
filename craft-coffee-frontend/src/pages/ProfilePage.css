@@ -1,0 +1,94 @@
+.profile-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .profile-page h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #4A4A4A;
+  }
+  
+  .profile-page section {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-page h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .profile-page label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .profile-page input[type="text"],
+  .profile-page input[type="email"],
+  .profile-page input[type="password"],
+  .profile-page textarea {
+    display: block;
+    margin: 8px 0 16px;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .profile-page button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .profile-page button:hover {
+    background-color: #45a049;
+  }
+  
+  .order-history ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .order-history li {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .order-history p {
+    margin: 5px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .profile-page {
+      padding: 10px;
+    }
+  
+    .profile-page input[type="text"],
+    .profile-page input[type="email"],
+    .profile-page input[type="password"],
+    .profile-page textarea {
+      max-width: 100%;
+    }
+  }
+  

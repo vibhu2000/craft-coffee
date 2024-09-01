@@ -1,0 +1,106 @@
+.order-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .order-page h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #4A4A4A;
+  }
+  
+  .customizable-orders, .order-review, .order-tracking {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .customizable-orders h2, .order-review h2, .order-tracking h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .customizable-orders label, .order-review p {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .customizable-orders select, 
+  .customizable-orders input[type="checkbox"], 
+  .customizable-orders textarea {
+    display: block;
+    margin: 8px 0 16px;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .order-review p {
+    margin-bottom: 8px;
+  }
+  
+  .order-review button,
+  .order-tracking button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .order-review button:hover,
+  .order-tracking button:hover {
+    background-color: #45a049;
+  }
+  
+  .order-review button:last-child {
+    background-color: #f44336;
+  }
+  
+  .order-review button:last-child:hover {
+    background-color: #e53935;
+  }
+  
+  .order-tracking p {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .order-page {
+      padding: 10px;
+    }
+  
+    .customizable-orders, .order-review, .order-tracking {
+      padding: 15px;
+    }
+  
+    .customizable-orders select, 
+    .customizable-orders input[type="checkbox"], 
+    .customizable-orders textarea {
+      max-width: 100%;
+    }
+  
+    .order-review button, .order-tracking button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
